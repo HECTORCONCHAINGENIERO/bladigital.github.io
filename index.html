@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LocalBoost Web | Más clientes desde Google</title>
+
+<style>
+    body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("img/fondo.jpg") center/cover no-repeat;
+  color: white;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+    z-index: -1;
+}
+   header {
+    background: rgba(17,17,17,0.85);
+    backdrop-filter: blur(10px);
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 20px;
+    max-width: 700px;
+    margin: auto;
+    opacity: 0.9;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 15px 35px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 5px 20px rgba(37,211,102,0.4);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+    section {
+        padding: 50px 20px;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+   .card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+    footer {
+        background: #111;
+        text-align: center;
+        padding: 25px;
+        font-size: 13px;
+        opacity: 0.7;
+    }
+    .logo {
+    width: 180px;
+    max-width: 80%;
+    margin-bottom: 20px;
+}
+
+/* Título */
+.planes h2 {
+  text-align: center;
+  margin: 40px 0;
+  font-size: 32px;
+}
+
+/* Contenedor */
+.contenedor-planes {
+  display: flex;
+  justify-content: center;
+  gap: 35px; /* antes 20px */
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-top: 30px;
+}
+
+.plan {
+  background: white;
+  color: #111;
+  width: 280px;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.destacado {
+  border: 2px solid #25D366;
+  transform: scale(1.03); /* más sutil */
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.plan:hover {
+  transform: translateY(-8px);
+}
+
+/* Precio */
+.precio {
+  display: block;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #2c3e50;
+}
+
+/* Botón */
+
+button {
+  background: #1d72b8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #155a91;
+}
+
+
+.destacado h3 {
+  color: #1d72b8;
+}
+.detalle-plan {
+    display: none;
+    margin-top: 15px;
+    padding: 15px;
+    background: #f5f5f5;
+    color: #333;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.detalle-plan ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.ver-detalle {
+    background: #1d72b8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.ver-detalle:hover {
+    background: #155a91;
+}
+.header {
+    position: relative;
+    z-index: 2;
+    background: transparent;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.spline-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.spline-bg iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+</style>
+</head>
+<body>
+<div class="spline-bg">
+    <iframe
+        src="https://my.spline.design/3dprojectionnoiseyachting-Jp7Audla0M0SFyPL0YtebJEu-xxS/"
+        frameborder="0"
+        width="100%"
+        height="100%">
+    </iframe>
+</div>
+<header class="header">
+    <img src="img/logo-bla.png" alt="BL&A Digital" class="logo">
+
+    <h1>Convierte Google en clientes reales</h1>
+    <p>Creamos páginas web para negocios locales que quieren vender más</p>
+
+ 
+
+<a class="btn"
+   href="https://wa.me/56936387748?text=Hola,%20me%20interesa%20recibir%20una%20evaluación%20gratuita de mi negocio."
+   target="_blank">
+   Solicitar Evaluación Gratuita
+</a>
+</header>
+
+<section>
+    <h2>¿Qué hacemos?</h2>
+    <div class="grid">
+
+        <div class="card">
+            <h3>🌐 Páginas Web</h3>
+            <p>Web profesional para que tus clientes te encuentren fácilmente en Google.</p>
+        </div>
+
+        <div class="card">
+            <h3>📍 Google Maps</h3>
+            <p>Optimizamos tu presencia para aparecer mejor en búsquedas locales.</p>
+        </div>
+
+        <div class="card">
+            <h3>💬 WhatsApp Directo</h3>
+            <p>Botón directo para que los clientes te contacten sin perder ventas.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="planes">
+  <h2>Nuestros Planes</h2>
+
+  <div class="contenedor-planes">
+
+    <div class="plan">
+
+    <h3>Básico</h3>
+
+    <p>Ideal para comenzar</p>
+
+    <span class="precio">$79.990</span>
+
+    <button class="ver-detalle" onclick="mostrarDetalle('basico')">
+        Ver Detalles
+    </button>
+
+    <div id="basico" class="detalle-plan">
+        <ul>
+            <li>✓ Página web de 1 sección</li>
+            <li>✓ Botón WhatsApp</li>
+            <li>✓ Formulario de contacto</li>
+            <li>✓ Diseño adaptable a celulares</li>
+            <li>✓ Entrega rápida</li>
+        </ul>
+    </div>
+
+</div>
+
+    <div class="plan destacado">
+
+    <h3>Estándar</h3>
+
+    <p>El más elegido</p>
+
+    <span class="precio">$149.990</span>
+
+    <button class="ver-detalle" onclick="mostrarDetalle('estandar')">
+        Ver Detalles
+    </button>
+
+    <div id="estandar" class="detalle-plan">
+        <ul>
+            <li>✓ Todo lo del plan Básico</li>
+            <li>✓ Hasta 5 secciones</li>
+            <li>✓ Optimización para Google</li>
+            <li>✓ Integración Google Maps</li>
+            <li>✓ Galería de imágenes</li>
+            <li>✓ Soporte inicial</li>
+        </ul>
+    </div>
+
+</div>
+
+    <div class="plan">
+
+    <h3>Premium</h3>
+
+    <p>Servicio completo</p>
+
+    <span class="precio">$249.990</span>
+
+    <button class="ver-detalle" onclick="mostrarDetalle('premium')">
+        Ver Detalles
+    </button>
+
+    <div id="premium" class="detalle-plan">
+        <ul>
+            <li>✓ Todo lo del plan Estándar</li>
+            <li>✓ Secciones ilimitadas</li>
+            <li>✓ Dominio personalizado</li>
+            <li>✓ Correos corporativos</li>
+            <li>✓ Prioridad de soporte</li>
+            <li>✓ Ajustes y modificaciones</li>
+        </ul>
+    </div>
+
+</div>
+
+  </div>
+</section>
+
+<section>
+    <h2>¿Por qué elegirnos?</h2>
+    <p>
+        Ayudamos a negocios locales a transformar su presencia digital en clientes reales.
+        No solo hacemos páginas web: ayudamos a que te encuentren y te contacten más.
+    </p>
+</section>
+<section class="confianza">
+    <h2>¿Por qué elegir BL&A Digital?</h2>
+
+    <div class="grid">
+        <div class="card">
+            <h3>🚀 Más visibilidad</h3>
+            <p>Ayudamos a que tu negocio aparezca en Google.</p>
+        </div>
+
+        <div class="card">
+            <h3>⚡ Entrega rápida</h3>
+            <p>Páginas listas en pocos días.</p>
+        </div>
+
+        <div class="card">
+            <h3>💬 Soporte directo</h3>
+            <p>Atención personalizada por WhatsApp.</p>
+        </div>
+    </div>
+</section>
+<footer>
+    <strong>BL&A Digital</strong><br>
+    Diseño Web · Google Maps · Marketing Local<br><br>
+
+    📞 +56 9 3638 7748<br>
+    📧 contactobla@gmail.com
+
+    <br><br>
+
+    © 2026 BL&A Digital. Todos los derechos reservados.
+</footer>
+<script>
+function mostrarDetalle(id) {
+
+    const detalle = document.getElementById(id);
+
+    if (detalle.style.display === "block") {
+        detalle.style.display = "none";
+    } else {
+        detalle.style.display = "block";
+    }
+}
+</script>
+</body>
+</html>
